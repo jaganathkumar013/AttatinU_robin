@@ -1,7 +1,0 @@
-git init
-//git add README.md // this line is not required
-git add . // this needs to be used
-git commit -m "first commit"
-git remote add origin https://github.com/jaganathkumar013/AttatinU_robin.git
-git push -u origin master
-
