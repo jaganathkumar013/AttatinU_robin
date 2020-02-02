@@ -1,0 +1,15 @@
+﻿Write Human-Friendly Code
+Planning Before Coding
+
+			Good Habits of a programmer
+
+    1. Write Manageable Code
+    2. Share Your Code Publicly as Much as Possible
+    3. Learn To Debug Smarter 
+    4. Do Version Control
+    5. Always Learn Something New
+    6. Use Command-line When Possible
+    7. Know Shortcuts
+    8. Turn Off Notifications
+    9. Planning before coding
+    10. Learn to debug smarter

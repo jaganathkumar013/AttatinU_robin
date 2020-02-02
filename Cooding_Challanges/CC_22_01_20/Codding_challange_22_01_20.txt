@@ -1,0 +1,27 @@
+﻿					Coding Challange
+
+Coding challenge is to explore the .git folder and try to understand what is happening in the 	folder when you do git add, and commit
+
+
+
+    1. Creating new Git Repository named Attainu_robin
+    2. Creating a local git Repository with same name as Git Repository
+    3. initializing git by git init  command & git add .  Is used to add the files inside the local git repo 
+    4. now creating an origin (or) clone repo to local git branch,  with git remote add origin https://github.com/jaganathkumar013/AttatinU_robin.git &  checking the status by git status
+    5. creating files inside the local AttainU_robin repo & committing with git commit -m "first_commit" 
+    6. Now pushing the files into master git repo with git push -u origin master 
+    7. Enter the username & password of your git repo & after signing in project files are uploaded into the master repo.
+    8. If you don’t want to type it every single time you push, you can set up a “credential cache”. The simplest is just to keep it in memory for a few minutes, which you can easily set up by running git config --global credential.helper cache.
+       
+    9. Now modifying files in the local repository and saving the changes, now adding modified files to local repo with git add .  Command.
+    10. Committing the modified changes to the local repo & checking the status of the commit,
+    11. now pushing the code to the master git repository, 
+
+    12. now the files are uploaded to the git repository, with all the commits and changes,
+    13. Inside the commit we are able to see the logs and their differences in files , 
+
+
+
+
+
+    14. Now we can see the changes in the files are highlighted in the above screen shots showing the files in first commit and files after the second commit, from this we can easily identify the changes made to the files and keep track of our works.

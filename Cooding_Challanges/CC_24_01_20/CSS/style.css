@@ -1,0 +1,95 @@
+.flex-containers {
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto ;
+  }
+  .flex-containers > div {
+    background-color: #f1f1f1;
+    width: 450px;
+    margin: 10px;
+    margin: auto;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+ small{
+    font-size: 10px;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-anchor: middle;
+  }
+  .nav_menu{
+  
+    float: inline-end;
+    margin: 10px,10px,10px,10px;
+  }
+  .insta_img{
+    float: left;
+    margin: 10px,10px,10px,10px;
+   }
+  .insta_text{
+    float: left;
+    font-size: 25px;
+    margin: 10px,10px,10px,10px;
+  }
+  .body_text_album{
+    text-align: center;
+    font-size: 30px;
+  }
+  p {
+    text-align: center;
+  margin-left: 190px;
+  margin-right: 190px;
+  }
+  .btn_main{
+    float: left; margin-left: 450px;
+  }
+  .btn_sec{
+    float: left;
+    
+  }
+  i{
+   margin-top: 20px;
+   margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  text-align: center;
+    line-height: 0.7;
+  }
+  .img_sr{
+    margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+  .foot{
+    float: left;
+    margin-right: 500px;
+    margin-left: 90px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a{
+    float: right;
+    margin-right: 200px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: inherit;
+    
+    width: 20px;
+    font-size: 10px;
+    height: 20px;
+
+   
+  }
+  header{
+    background-color: darkgray;
+    width: inherit;
+    height: 50px;
+
+  }

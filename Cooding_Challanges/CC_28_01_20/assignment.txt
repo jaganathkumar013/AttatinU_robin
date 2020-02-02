@@ -1,0 +1,52 @@
+1) In python, the size of float and integer is the same in terms of bytes then how is it able to store such large values?
+Solution:-
+
+2) How many bits are there in 1GB and 1MB?
+ Solution:-
+ 1 GB=8*1024*1024*1024=8589934592,
+ 1 Mb=8000000 bits,
+ (1 mb) + (1 gb) =8 008 000 000 bits
+
+3)) write a program that takes input from the user as marks in 5 subjects and assigns a grade according to the following rules:
+Perc = (s1+s2+s3+s4+s5)/5.
+A, if Perc is 90 or more
+B, if Perc is between 70 and 90(not equal to 90)
+C, if Perc is between 50 and 70(not equal to 90)
+D, if Perc is between 30 and 50(not equal to 90)
+E, if Perc is less than 30
+
+
+Solution:-
+s1=float((input("Enter the maths mark ")))
+s2=float((input("Enter the biology mark ")))
+s3=float((input("Enter the chemitry mark ")))
+s4=float((input("Enter the english mark ")))
+s5=float((input("Enter the Accounts mark ")))
+
+Perc = (s1+s2+s3+s4+s5)/5
+if (Perc >= 90):
+    print("A Grade")
+elif Perc < 90 and Perc >= 70:
+    print("B Grade")
+elif Perc < 70 and Perc >= 50:
+    print("C Grade")
+elif Perc < 50 and Perc >= 30:
+    print("D Grade")
+elif Perc < 30:
+    print("F Grade")
+
+4)Build a very basic login system that takes in input from the username password. 
+checks if username is "Priyesh" and password is "password" and responds with:
+  Username Doesnot Exist
+  Passwords donot match
+  Entered the System
+  
+  Solution:-
+    username=input("Enter the username ")
+password=input('Enter the password ')
+if username == 'Priyesh' and password == 'password':
+    print ('Entered the System')
+elif username !='Priyesh' :
+    print  ('Username Doesnot Exist')
+elif password !='password' :
+    print  ('password donot match')
